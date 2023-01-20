@@ -1,4 +1,55 @@
-head{
-    font: 50px;
-    font-family: 'Courier New', Courier, monospace;
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+ }
+ .navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
 }
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition:all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+#home{
+    display: flex;
+    flex-direction: coloumn;
+    background-color: rgba(0,0,0,0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+    #home::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url('img1.jpg') no-repeat center center/cover;
+        height:900px;
+        width: 100%;
+        z-index: -1;
+        opacity: .8;
+
+    }
