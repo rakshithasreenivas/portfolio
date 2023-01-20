@@ -103,12 +103,22 @@
         padding: 10px;
     }
     #intro h2{
-        font-size: 2rem;
+        font-size: 20pt;
+        margin-bottom: 30px;
+    }
+    #intro p{
+        font-size: 30px;
+        font-family: cursive;
+    }
+    #mail id{
+        display:flex;
+        flex-direction: column;
+        text-align: right;
+        padding: 10px;
+     }
+     #mail id h3{
+        font-size: 20pt;
         margin-bottom: 20px;
     }
 
-    }
-
-
-
-}
+   
